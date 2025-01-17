@@ -1,0 +1,76 @@
+html { /*Estilizando todo o html*/
+    font-family: Helvetica;
+    background-color: #000e;
+}
+
+.container {
+    max-width: 1500px; /*Delimitando a largura máximo do container*/
+    background-color: white;
+    position: relative; /*Técnica de centralização junto com a margin*/
+    margin: 100px auto;
+    padding: 20px 50px; /*Espaçamento interno para distanciar os conteúdos das borda*/
+    border: 1px solid rgb(148, 10, 10);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.header {
+    text-align: center;
+}
+
+.main-tittle {
+    font-size: 40px;
+}
+
+.main-paragraph {
+    font-style: italic;
+}
+
+.featured-image {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.biograph-container {
+    padding: 25px 0px;
+    margin: 25px 0px;
+    border-top: 1px dashed #DDD;
+    border-bottom: 1px dashed #DDD;
+}
+
+.quotes-container {
+    background-color: #ddd;
+    padding: 30px;
+}
+
+.quotes-container blockquote {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.quotes-container p {
+    font-style: italic;
+}
+
+.curiosities-container {
+    padding: 25px 0px;
+    margin: 25px 0px;
+    border-top: 1px dashed #DDD;
+    border-bottom: 1px dashed #DDD;
+}
+
+.curiosities-container li {
+    height: 30px; /*Melhorando/separando os espaçamentos dos itens em "li"*/
+}
+
+.img-bold {
+    font-weight: bold;
+    text-align: center;
+}
+
+.img-1 {
+    max-width: 1100px;
+}
+
